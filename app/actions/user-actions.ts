@@ -18,7 +18,7 @@ export async function createUser(name: string, email: string) {
 
     if (existingUser) {
       return {
-        success: true,
+        success: true,  
         message: "User already exists",
         userId: existingUser.id,
       }
